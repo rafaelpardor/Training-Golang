@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	fmt.Print("\n")
+
 	fmt.Println("Decimal \t Binary")
 	fmt.Println("------- \t ------")
 	fmt.Printf("%d \t\t %b \n", 1, 1)
