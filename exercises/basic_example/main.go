@@ -11,11 +11,15 @@ func main() {
 func basicExmple() {
 	fmt.Print("\n")
 
-	var input float64
-	output := input * 3
+	var input int16
+	var times int16
 
 	fmt.Print("Enter a number: ")
-	fmt.Scanf("%f", &input)
+	fmt.Scanf("%d", &input)
+	fmt.Print("Enter another number: ")
+	fmt.Scanf("%d", &times)
 
-	fmt.Printf("%d times 3 is equal to: %d\n", int32(input), int32(output))
+	output := input * times
+
+	fmt.Printf("%d times %d is equal to: %d\n", input, times, output)
 }

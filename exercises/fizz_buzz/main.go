@@ -4,9 +4,12 @@ import (
 	"fmt"
 )
 
+func main() {
+	fizzBuzz()
+}
+
 func fizzBuzz() {
 	for i := 1; i <= 20; i++ {
-		// fmt.Println(i)
 		if i%15 == 0 {
 			fmt.Println("FizzBuzz")
 		} else if i%3 == 0 {
@@ -34,8 +37,4 @@ func fizzBuzzOp() {
 		}
 		fmt.Println(i)
 	}
-}
-
-func main() {
-
 }

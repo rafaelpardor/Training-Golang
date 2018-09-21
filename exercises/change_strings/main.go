@@ -9,7 +9,7 @@ func main() {
 func stringManipulating() {
 	fmt.Print("\n")
 
-	fmt.Print("Strings are immutable so you cannot change its content once created.\n You need to first convert into a slice of rune then do the changes\n and in the end convert it back to string.\n\n")
+	fmt.Print("Strings are immutable so you cannot change its content once created.\n And in the end convert it back to string.\n\n")
 
 	s := "hello, World!"
 	fmt.Println(s)

@@ -10,7 +10,7 @@ func convertion() {
 
 	fmt.Print("Ingresa la cantidad de feets que quieres convertir a metros: ")
 	fmt.Scanf("%f", &ft)
-	fmt.Println(mts, "mts")
+	fmt.Println(mts, "mts.")
 }
 
 func main() {
