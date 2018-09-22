@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("\n")
-
 	fmt.Println("Decimal")
 	fmt.Println("-------")
-	fmt.Println(42)
+	for i := 1; i < 11; i++ {
+		fmt.Println(i)
+	}
 }
