@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	alias "github.com/rafaelpardor/golang/01-basic/04-package/icomefromalaska"
-	"github.com/rafaelpardor/golang/01-basic/04-package/stringutil"
+	"github.com/rafaelpardor/golang/01-basic/04-package/package1"
+	alias "github.com/rafaelpardor/golang/01-basic/04-package/package2"
 )
 
 func main() {
@@ -12,8 +12,8 @@ func main() {
 	y := "leafaR"
 	foo := "!oG ,olleH"
 
-	fmt.Println(alias.BearName)
-	fmt.Println(stringutil.MyName)
+	fmt.Println(alias.ExportedVariable)
+	fmt.Println(stringutil.Exported)
 	fmt.Println(stringutil.Reverse(x))
 	fmt.Println(stringutil.Reverse(y))
 	fmt.Println(stringutil.Reverse(foo))
