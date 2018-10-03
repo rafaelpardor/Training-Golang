@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Printing decimal, binary and hexadecimal numbers. (1-10)	(1-1010) (0-9/a-f)
 func main() {
 	fmt.Println("Decimal \t Binary \t Hexadecimal")
 	fmt.Println("------- \t ------ \t -----------")

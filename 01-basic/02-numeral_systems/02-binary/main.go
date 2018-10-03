@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Printing decimal and binary numbers. (1-10)	(1-1010)
 func main() {
 	fmt.Println("Decimal \t Binary")
 	fmt.Println("------- \t ------")

@@ -1,3 +1,4 @@
 package anyname
 
-var ExportedVariable = "Variable exportada de la carpeta icomefromalaska"
+// If the variable start with a lowercase, this will not be exported.
+var ExportedVariable = "Variable exported from package2"

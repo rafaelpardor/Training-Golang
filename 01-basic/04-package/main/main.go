@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/rafaelpardor/golang/01-basic/04-package/package1"
+	// We can rename a package
 	alias "github.com/rafaelpardor/golang/01-basic/04-package/package2"
 )
 
@@ -12,9 +13,9 @@ func main() {
 	y := "leafaR"
 	foo := "!oG ,olleH"
 
-	fmt.Println(alias.ExportedVariable)
 	fmt.Println(stringutil.Exported)
-	fmt.Println(stringutil.Reverse(x))
-	fmt.Println(stringutil.Reverse(y))
-	fmt.Println(stringutil.Reverse(foo))
+	fmt.Println(alias.ExportedVariable)
+	fmt.Println("String reversed:", stringutil.Reverse(x))
+	fmt.Println("String reversed:", stringutil.Reverse(y))
+	fmt.Println("String reversed:", stringutil.Reverse(foo))
 }
