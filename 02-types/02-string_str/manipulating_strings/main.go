@@ -10,32 +10,33 @@ func main() {
 }
 
 func getStrings() {
-	x := "Golang"
-	text := "Hello world, Hello Platzi, Hello Go"
+	aa := "Golang"
+	ab := "Hello world, Hello Platzi, Hello Go"
 
-	fmt.Printf("Length of '%v' is %d bits. \n", x, len(x))
-	fmt.Printf("Length of '%v' is %d bits. \n", text, len(text))
+	lengthOfStrings(aa)
+	lengthOfStrings(ab)
+
 	fmt.Println(" ")
-	fmt.Printf("Print the bit of the character %d. \n ", x[0])
-	fmt.Printf("Print the bit of the character %d. \n ", text[0])
+	decimalString(aa)
+	decimalString(ab)
+
+	// todo Pass to function
 	fmt.Println(" ")
-	fmt.Printf("Print the character %q. \n", string(x[0]))
-	fmt.Printf("Print the character %q. \n", string(text[0]))
+	fmt.Println(aa, "/", aa[0:1])
+	fmt.Println(ab, "/", ab[0:5])
+
 	fmt.Println(" ")
-	fmt.Println(x, "/", x[0:2])
-	fmt.Println(text, "/", text[0:5])
+	fmt.Println(strings.Replace(aa, "Go", "Og", 1))
+	fmt.Println(strings.Replace(ab, "Hello", "Golang", -1))
 	fmt.Println(" ")
-	fmt.Println(strings.Replace(x, "Go", "Og", 1))
-	fmt.Println(strings.Replace(text, "Hello", "Golang", -1))
+	fmt.Println(strings.ToUpper(aa))
+	fmt.Println(strings.ToUpper(ab))
 	fmt.Println(" ")
-	fmt.Println(strings.ToUpper(x))
-	fmt.Println(strings.ToUpper(text))
+	fmt.Println(strings.ToLower(aa))
+	fmt.Println(strings.ToLower(ab))
 	fmt.Println(" ")
-	fmt.Println(strings.ToLower(x))
-	fmt.Println(strings.ToLower(text))
-	fmt.Println(" ")
-	fmt.Println(strings.Split(x, "G"))
-	fmt.Println(strings.Split(text, "H"))
+	fmt.Println(strings.Split(aa, "G"))
+	fmt.Println(strings.Split(ab, "H"))
 	fmt.Println(" ")
 	fmt.Println("Two strings are concatenated into a single string ::", "Hello,"+" world!")
 }

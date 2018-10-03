@@ -9,5 +9,5 @@ func main() {
 
 	var x byte
 
-	fmt.Printf("%T %v.\n", x, x)
+	fmt.Printf("The variale x is a %T with a value of %v.\n", x, x)
 }
