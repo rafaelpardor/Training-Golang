@@ -7,8 +7,8 @@ func max(x int) int {
 }
 
 func main() {
-	max := max(20)
-	fmt.Println(max)
+	sum := max(20)
+	fmt.Println(sum)
 }
 
 // don't do this; bad coding practice to shadow variables

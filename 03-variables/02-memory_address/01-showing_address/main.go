@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// We can print the memory adress of a variable.
 func main() {
 	a := 12
 

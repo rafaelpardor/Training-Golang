@@ -7,7 +7,8 @@ import (
 )
 
 func main() {
-	fmt.Println(vis.MyName)
 	fmt.Println(vis.Variable)
+	fmt.Println(vis.MyName)
+	fmt.Println("-Exporting functions-")
 	vis.PrintVar()
 }

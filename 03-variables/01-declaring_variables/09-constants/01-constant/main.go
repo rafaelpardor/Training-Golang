@@ -2,13 +2,12 @@ package main
 
 import "fmt"
 
-const p = "death & taxes"
+const name = "Rafael Pardo"
 
+// A constant is a simple unchanging value
 func main() {
-	const q = 42
+	const age = 20
 
-	fmt.Printf("p - %v\n", p)
-	fmt.Printf("q - %v\n", q)
+	fmt.Printf("name - %v\n", name)
+	fmt.Printf("age - %v\n", age)
 }
-
-// a CONSTANT is a simple unchanging value

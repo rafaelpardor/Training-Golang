@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
+// We can use ':=' to declare variables, in some cases we can't use this shortcut.
 func main() {
-
 	a := 10
 	b := "golang"
 	c := 4.17

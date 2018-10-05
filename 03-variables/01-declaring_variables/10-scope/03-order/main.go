@@ -10,4 +10,4 @@ func main() {
 	x := 42
 }
 
-var y = 42
+var y = 20
