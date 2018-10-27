@@ -6,9 +6,7 @@ import (
 
 // We make a for to show the type and the value of int numbers.
 func main() {
-	fmt.Println("By default, a number variable is a int.")
-
 	for i := 1; i < 11; i++ {
-		fmt.Printf("The variable we have been created, is a %T with a value of %v.\n", i, i)
+		fmt.Printf("The variable we have been created is a %T, with a value of %v.\n", i, i)
 	}
 }
