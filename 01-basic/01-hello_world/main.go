@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 
-// Basic Hello, world!
 func main() {
-	fmt.Println("Hello, world!")
+	fmt.Println("Hello, world!") // Basic print, 'Hello, world!'
 }
