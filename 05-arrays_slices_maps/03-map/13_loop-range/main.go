@@ -3,15 +3,14 @@ package main
 import "fmt"
 
 func main() {
-
-	myGreeting := map[int]string{
-		0: "Good morning!",
-		1: "Bonjour!",
-		2: "Buenos dias!",
-		3: "Bongiorno!",
+	kvs := map[int]string{
+		1: "apple",
+		2: "banana",
+		3: "pear",
 	}
 
-	for key, val := range myGreeting {
-		fmt.Println(key, " - ", val)
+	/*k apunta al indie y v apunta al valor*/
+	for k, v := range kvs {
+		fmt.Printf("%d -> %v\n", k, v)
 	}
 }
