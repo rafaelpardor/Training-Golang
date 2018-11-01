@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-
 	if false {
 		fmt.Println("print first statement")
 	} else if false {
