@@ -1,13 +1,13 @@
 # 01 Basics
 
-## Hello, world!
+## [Hello, world!](01-hello_world)
 
-## Numbers
-### Decimals
-### Binarys
-### Hexadecimal
-### All
+## [Numbers]()
+### [Decimals]()
+### [Binarys]()
+### [Hexadecimal]()
+### [All]()
 
-## UTF-8
+## [UTF-8]()
 
-## Packages
+## [Packages]()

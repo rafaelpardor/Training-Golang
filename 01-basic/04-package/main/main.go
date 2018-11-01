@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/rafaelpardor/golang/01-basic/04-package/package1"
-	// We can put an alias ti the packages
+	// We can put an alias to the packages
 	alias "github.com/rafaelpardor/golang/01-basic/04-package/package2"
 )
 
@@ -14,8 +14,8 @@ func main() {
 	foo := "!oG ,olleH"
 
 	importing()
-	fmt.Println(Hola) //Variables.go
-	fmt.Println(holi) //Variables.go
+	fmt.Println(Hola) // variables.go
+	fmt.Println(holi) // variables.go
 
 	fmt.Println(alias.ExportedVariable)
 
