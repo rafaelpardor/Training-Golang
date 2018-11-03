@@ -13,5 +13,6 @@ func main() {
 
 	fmt.Println(x)
 	fmt.Println("Lenght of the slice:", len(x)) // We print the lenght of the slice
-	fmt.Printf("Type-%T\n", x)                  // Type
+	fmt.Println("Capaity of the slice:", cap(x))
+	fmt.Printf("Type-%T\n", x) // Type
 }
