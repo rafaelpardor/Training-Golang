@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	fmt.Println("This program will print the biggest number among 3 numbers")
 	sortNumbers(10, 20, 3)
 }
 
