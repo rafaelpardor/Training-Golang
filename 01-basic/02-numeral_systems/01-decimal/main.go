@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Decimal") // Printing decimal numbers.
+	fmt.Println("Integers numbers")
 	fmt.Println("-------")
 
 	for i := 1; i < 11; i++ {

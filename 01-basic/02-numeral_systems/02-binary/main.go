@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Binary") // Printing binary numbers.
+	fmt.Println("Binary numbers")
 	fmt.Println("------")
 
 	for i := 1; i < 11; i++ {

@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 
-// Printing decimal numbers with his respective string.
 func main() {
 	fmt.Println("Decimal String")
 	fmt.Println("------- ------")

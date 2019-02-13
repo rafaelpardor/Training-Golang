@@ -3,8 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/rafaelpardor/golang/01-basic/04-package/package1"
-	// We can put an alias to the packages
+	stringutil "github.com/rafaelpardor/golang/01-basic/04-package/package1"
 	alias "github.com/rafaelpardor/golang/01-basic/04-package/package2"
 )
 
