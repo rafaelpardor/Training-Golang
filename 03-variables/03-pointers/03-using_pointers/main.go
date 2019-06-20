@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	a := 21
-	var b = &a
+	b := &a
 
 	fmt.Println(a)
 	fmt.Println(&a)

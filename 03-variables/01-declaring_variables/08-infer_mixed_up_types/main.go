@@ -2,8 +2,6 @@ package main
 
 import "fmt"
 
-// Now we combined all the types of create many variables at once.
-// In this case, we create a way of declared many varaibles and with his own type.
 func main() {
 	var message = "Hello World!"
 	var a, b, c = 1, false, "hi"

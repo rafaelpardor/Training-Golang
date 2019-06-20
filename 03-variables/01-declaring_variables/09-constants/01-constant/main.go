@@ -4,7 +4,6 @@ import "fmt"
 
 const name = "Rafael Pardo"
 
-// A constant is a simple unchanging value
 func main() {
 	const age = 20
 
