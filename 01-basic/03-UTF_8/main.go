@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Decimal String")
-	fmt.Println("------- ------")
+	fmt.Println("UTF Codes")
+	fmt.Println("-------")
 
 	for i := 32; i < 127; i++ {
-		fmt.Printf("%d \t %q \n", i, i) // Using %d to print int, and %q to a single-quoted character literal
+		fmt.Printf("%d ->\t %q \n", i, i)
 	}
 }
