@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	fmt.Println(strings.ToTitle("hola"))
 	fmt.Println(strings.Contains("Test", "t"))
 	fmt.Println(strings.Count("aaa", "a"))
 	fmt.Println(strings.HasPrefix("Rafael", "R"))
