@@ -2,21 +2,21 @@ package main
 
 import "fmt"
 
-func main() {
+func changeMe(z *int) {
+	fmt.Println(z)
+	fmt.Println(*z)
+	*z = 2
+	fmt.Println(z)
+	fmt.Println(*z)
+}
 
+func main() {
 	age := 44
-	fmt.Println(&age) // 0x82023c080
+	fmt.Println(age)
+	fmt.Println(&age)
 
 	changeMe(&age)
 
-	fmt.Println(&age) //0x82023c080
-	fmt.Println(age)  //24
-}
-
-func changeMe(z *int) {
-	fmt.Println(z)  // 0x82023c080
-	fmt.Println(*z) // 44
-	*z = 24
-	fmt.Println(z)  // 0x82023c080
-	fmt.Println(*z) // 24
+	fmt.Println(age)
+	fmt.Println(&age)
 }

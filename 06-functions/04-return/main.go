@@ -2,10 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println(greet("Rafael ", "Pardo"))
-}
-
 func greet(fname, lname string) string {
 	return fmt.Sprint(fname, lname)
+}
+
+func main() {
+	printName := greet("Rafael ", "Pardo")
+	fmt.Println(printName)
 }

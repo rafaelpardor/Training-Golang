@@ -7,8 +7,8 @@ func main() {
 	fmt.Println(x)
 	{
 		fmt.Println(x)
-		y := "The credit belongs with the one who is in the ring."
-		fmt.Println(y)
+		x := "The credit belongs with the one who is in the ring."
+		fmt.Println(x)
 	}
 	// fmt.Println(y) // outside scope of y
 }

@@ -2,6 +2,14 @@ package main
 
 import "fmt"
 
+func wrapper() func() int {
+	var x int
+	return func() int {
+		x++
+		return x
+	}
+}
+
 func main() {
 	incrementA := wrapper()
 	incrementB := wrapper()
@@ -10,14 +18,6 @@ func main() {
 	fmt.Println("B:", incrementB())
 	fmt.Println("B:", incrementB())
 	fmt.Println("B:", incrementB())
-}
-
-func wrapper() func() int {
-	var x int
-	return func() int {
-		x++
-		return x
-	}
 }
 
 /*
