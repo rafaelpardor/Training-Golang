@@ -7,6 +7,7 @@ func main() {
 		"Tim":   "Good morning!",
 		"Jenny": "Bonjour!",
 	}
+
 	myGreeting["Harleen"] = "Howdy"
 	myGreeting["Colombia"] = "Hola"
 

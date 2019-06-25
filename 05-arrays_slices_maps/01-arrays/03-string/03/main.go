@@ -12,6 +12,6 @@ func main() {
 	}
 
 	fmt.Println(x)
-	fmt.Println("Lenght of the array:", len(x)) // We print the lenght of the array
+	fmt.Println("Lenght of the array:", len(x))
 	fmt.Printf("Type-%T\n", x)
 }

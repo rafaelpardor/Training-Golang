@@ -19,8 +19,6 @@ func main() {
 		fmt.Println("exists: ", exists)
 	} else {
 		fmt.Println("That value doesn't exist.")
-		fmt.Println("val: ", val)
-		fmt.Println("exists: ", exists)
 	}
 
 	fmt.Println(myGreeting)

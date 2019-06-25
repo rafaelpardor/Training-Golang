@@ -11,6 +11,6 @@ func main() {
 	fmt.Println(mySlice)
 
 	mySlice = append(mySlice[:2], mySlice[3:]...)
+	mySlice = append(mySlice[:3], mySlice[4:]...)
 	fmt.Println(mySlice)
-
 }

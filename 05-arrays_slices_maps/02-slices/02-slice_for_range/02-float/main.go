@@ -12,7 +12,7 @@ func main() {
 	}
 
 	fmt.Println("Index \t| Value")
-	for i, value := range xs {
-		fmt.Printf("%d \t| %f\n", i, value)
+	for i, v := range xs {
+		fmt.Printf("%d \t| %f\n", i, v)
 	}
 }

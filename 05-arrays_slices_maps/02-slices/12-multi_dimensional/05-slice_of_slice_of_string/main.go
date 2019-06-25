@@ -18,11 +18,13 @@ func main() {
 	records = append(records, student1)
 
 	// student 2
-	student2 := make([]string, 4)
+	student2 := make([]string, 6)
 	student2[0] = "Gomez"
 	student2[1] = "Lisa"
 	student2[2] = "92.00"
 	student2[3] = "96.00"
+	student2[4] = "96.00"
+	student2[5] = "96.00"
 
 	// store the record
 	records = append(records, student2)

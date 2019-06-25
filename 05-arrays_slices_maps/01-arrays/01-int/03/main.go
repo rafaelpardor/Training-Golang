@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	x := [5]float64{
+	x := [5]int{
 		98,
 		93,
 		77,
@@ -14,6 +14,6 @@ func main() {
 	}
 
 	fmt.Println(x)
-	fmt.Println("Lenght of the array:", len(x)) // We print the lenght of the array
+	fmt.Println("Lenght of the array:", len(x))
 	fmt.Printf("Type-%T\n", x)
 }

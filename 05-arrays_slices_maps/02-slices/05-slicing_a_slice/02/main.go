@@ -14,12 +14,14 @@ func main() {
 		"Gutten morgen!", //6
 	}
 
+	fmt.Print("[1:] ")
+	fmt.Println(greeting[1:])
 	fmt.Print("[1:2] ")
 	fmt.Println(greeting[1:2])
 	fmt.Print("[:2] ")
 	fmt.Println(greeting[:2])
 	fmt.Print("[5:] ")
 	fmt.Println(greeting[5:])
-	fmt.Print("[:] ")
-	fmt.Println(greeting[:])
+	fmt.Print("[:6] ")
+	fmt.Println(greeting[:6])
 }

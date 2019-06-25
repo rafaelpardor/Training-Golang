@@ -9,10 +9,9 @@ func main() {
 		2: "Buenos dias!",
 		3: "Bongiorno!",
 	}
-
 	fmt.Println(myGreeting)
 
-	// delete(myGreeting, 2)
+	delete(myGreeting, 2)
 
 	if val, exists := myGreeting[2]; exists {
 		fmt.Println("That value exists.")
@@ -20,8 +19,6 @@ func main() {
 		fmt.Println("exists: ", exists)
 	} else {
 		fmt.Println("That value doesn't exist.")
-		fmt.Println("val: ", val)
-		fmt.Println("exists: ", exists)
 	}
 
 	fmt.Println(myGreeting)

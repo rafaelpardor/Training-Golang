@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-
 	myGreeting := map[string]string{
 		"zero":  "Good morning!",
 		"one":   "Bonjour!",

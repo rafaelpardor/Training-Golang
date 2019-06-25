@@ -18,7 +18,8 @@ func main() {
 	fmt.Println(mySlice)
 	fmt.Println(cap(mySlice))
 
-	mySlice = append(mySlice, 14, 15)
+	mySlice = append(mySlice, 20, 21)
 	fmt.Println(mySlice)
+	fmt.Println(len(mySlice))
 	fmt.Println(cap(mySlice))
 }

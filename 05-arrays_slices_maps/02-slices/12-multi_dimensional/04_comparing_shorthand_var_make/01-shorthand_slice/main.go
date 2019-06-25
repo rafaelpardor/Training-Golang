@@ -5,12 +5,12 @@ import (
 )
 
 func main() {
-	student := []string{}
+	student := [1]string{}
 	students := [][]string{}
 
 	student[0] = "Todd"
-	// student = append(student, "Todd")
+	// student = append(student, "aa")
 
-	fmt.Println(student)
+	fmt.Printf("%T", student)
 	fmt.Println(students)
 }
