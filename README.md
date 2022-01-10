@@ -1,3 +1,6 @@
 # Golang
 
-Working with Go, all the code that I'm getting is from others sources and books, perhaps I'm doing this just becouse I want to.
+Repository with Golang code examples, the examples that are in this repo, 
+are from multiples resources, from books, blogs, paid and free tutorials.
+So, some of the examples are not my intellectual property.
+
