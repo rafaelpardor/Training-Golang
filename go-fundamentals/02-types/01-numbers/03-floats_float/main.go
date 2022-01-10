@@ -2,10 +2,14 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 func main() {
-	for i := 1.10; i < 11.12; i++ {
-		fmt.Printf("The variable we have been created, is a '<%T>' with a value of %.2f.\n", i, i)
-	}
+	maxFloat32 := math.MaxFloat32
+	maxFloat64 := math.MaxFloat64
+
+	fmt.Println("The float type has two types, 'float32' and 'float64'")
+	fmt.Printf("The variable we have been created, is a '<%T>' with a value of %f.\n", maxFloat32, maxFloat32)
+	fmt.Printf("The variable we have been created, is a '<%T>' with a value of %3.2f.\n", maxFloat64, maxFloat64)
 }

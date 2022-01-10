@@ -5,10 +5,10 @@ import (
 )
 
 func main() {
-	fmt.Println("The uint type is a value of integers, that only take positive numbers.")
+	fmt.Println("The characteristic of the 'uint' type is that only saves positive numbers.")
 	var c uint = 121
 	// var err uint = -1
 
-	fmt.Println(c)
+	fmt.Printf("Type: '<%T>', value: %v\n", c, c)
 	// fmt.Println(err)
 }
