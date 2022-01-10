@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+	fmt.Println("Strings package and string methods")
+
 	fmt.Println(strings.ToTitle("hola"))
 	fmt.Println(strings.Contains("Test", "t"))
 	fmt.Println(strings.Count("aaa", "a"))
