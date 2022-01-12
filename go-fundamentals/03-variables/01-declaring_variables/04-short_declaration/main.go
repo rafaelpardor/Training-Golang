@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	fmt.Println("In Go we can create a variable with a short declaration, using the Walrus operator, with this declaration, Go will infer the data type..")
+
 	a := 10
 	b := "golang"
 	c := 4.17
@@ -14,15 +16,15 @@ func main() {
 
 	fmt.Println("Type \t||\t value")
 	fmt.Println("---- \t\t -----")
-	fmt.Printf("%T \t||\t %v \n", a, a)          // Type and value of variale a.
-	fmt.Printf("%T \t||\t %v \n", b, b)          // Type and value of variale b.
-	fmt.Printf("%T ||\t %v \n", c, c)            // Type and value of variale c.
-	fmt.Printf("%T \t||\t %v \n", d, d)          // Type and value of variale d.
-	fmt.Printf("%T \t||\t %v \n", e, e)          // Type and value of variale e.
-	fmt.Printf("%T \t||\t %v \n", f, f)          // Type and value of variale f.
-	fmt.Printf("%T \t||\t %v,%d \n", g, g, g[0]) // Type and value of variale g.
-	fmt.Printf("%T \t||\t %v \n", h, h)          // Type and value of variale h.
-	fmt.Printf("%T \t||\t %v \n", i, i)          // Type and value of variale i.
-	fmt.Printf("%T \t||\t %v \n", j, j)          // Type and value of variale j.
-	fmt.Printf("%T \t||\t %q \n", k, k)          // Type and value of variale k.
+	fmt.Printf("%T \t||\t %v \n", a, a)
+	fmt.Printf("%T \t||\t %v \n", b, b)
+	fmt.Printf("%T ||\t %v \n", c, c)
+	fmt.Printf("%T \t||\t %v \n", d, d)
+	fmt.Printf("%T \t||\t %v \n", e, e)
+	fmt.Printf("%T \t||\t %v \n", f, f)
+	fmt.Printf("%T \t||\t %v,%d \n", g, g, g[0])
+	fmt.Printf("%T \t||\t %v \n", h, h)
+	fmt.Printf("%T \t||\t %v \n", i, i)
+	fmt.Printf("%T \t||\t %v \n", j, j)
+	fmt.Printf("%T \t||\t %q \n", k, k)
 }
