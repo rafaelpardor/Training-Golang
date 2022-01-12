@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	fmt.Println("We can declare variables with empty values, every data type has it's own default value.")
+
 	var a int
 	var b string
 	var c float64
