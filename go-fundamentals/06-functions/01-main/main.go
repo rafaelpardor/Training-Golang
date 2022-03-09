@@ -2,10 +2,6 @@ package main
 
 import "fmt"
 
-func hello() {
-	fmt.Println("Hello world!")
-}
-
 func main() {
-	hello()
+	fmt.Println("In Go, the first function that we learn and use is the 'main' function as a entry point for a program.")
 }

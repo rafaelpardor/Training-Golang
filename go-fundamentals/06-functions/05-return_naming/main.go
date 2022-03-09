@@ -14,5 +14,6 @@ func operation(sum int) (x, y, z, a int, b, c string) {
 }
 
 func main() {
+	fmt.Println("In Go, we can return more than one variable")
 	fmt.Println(operation(10))
 }
