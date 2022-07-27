@@ -13,7 +13,6 @@ func incrementCount(n int) {
 }
 
 func main() {
-	fmt.Println("vim-go")
 	//incrementCount(1)
 	//incrementCount(2)
 	go incrementCount(1)
